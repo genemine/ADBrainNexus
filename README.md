@@ -11,6 +11,7 @@ This repository provides source codes to build the model for predicting AD-assoc
 Assuming that you are currently in the downloaded folder, just run the following command and you will be able to built a model and make predictions:
 
  python AD_gene_pred.py data/BrainNexus_AD.txt FGN 100
+ 
  python AD_gene_pred.py data/integrated_feature.txt integrated 100
  
 Note: The three modules, which are pandas, numpy and sklearn, need to be installed before running the script.
