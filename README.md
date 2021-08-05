@@ -1,5 +1,5 @@
 # AD gene prediction
-This repository provides source codes to build the model for predicting AD-associated genes and to make predictions. The model is built using ExtraTree. The feature vectors of training and test genes are extracted from the brain gene network in the BrainNexus database, which is available at http://www.alzlink.com/BrainNexus
+This repository provides source codes to build the model for predicting AD-associated genes and to make predictions. The model is built using ExtraTree. The feature vectors of training and test genes are extracted from the BrainNexus network, which is available at xxx.
 
 ## 1. Usage
 (1) After this repository is downloaded and unzipped, go into the folder. Then, make sure to unzip the mat2pred.txt.zip folder, which contains feature matrix of unlabeled genes to predict.
