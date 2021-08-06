@@ -1,6 +1,5 @@
 # AD gene prediction
-This repository provides source codes to build the model for predicting AD-associated genes and to make predictions. The model is built using ExtraTree. The feature vectors of training and test genes are extracted from the BrainNexus network, which is available at https://zenodo.org/record/5163897![image](https://user-images.githubusercontent.com/48688298/128436714-efc9476b-1aec-42c3-93a8-222aca742875.png)
-.
+This repository provides source codes to build the model for predicting AD-associated genes and to make predictions. The model is built using ExtraTree. The feature vectors of training and test genes are extracted from the BrainNexus network, which is available at https://zenodo.org/record/5163897.
 
 ## 1. Usage
 (1) After this repository is downloaded and unzipped, go into the folder. Then, make sure to unzip the mat2pred.txt.zip folder, which contains feature matrix of unlabeled genes to predict.
