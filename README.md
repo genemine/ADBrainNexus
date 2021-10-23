@@ -8,9 +8,9 @@ This repository provides source codes to build the model for predicting AD-assoc
 Assuming that you are currently in the downloaded folder, just run the following command and you will be able to built a model and make predictions:
 
 ```bash
- python AD_gene_pred.py output data/ADBrainNexus.txt FGN 10
+ python AD_gene_pred.py output data/ADBrainNexus.txt 10
  
- python AD_gene_pred.py output data/integrated_feature.txt integrated 10
+ python AD_gene_pred.py output data/integrated_feature.txt  10
  
  ```
 In the above commands, the third input, i.e. 10, represents the times of random sampling to build sub-models: in each random sampling,  negative genes shuffle for modeling. 5-fold CV is performed on the combined set of the positives and the sampled negatives. The sub-models built during CV are used to rank all human genes.
