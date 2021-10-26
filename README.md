@@ -2,13 +2,12 @@
 This repository provides source codes to build the model for predicting AD-associated genes and to make predictions. The model is built using Ridge regression. The feature vectors of training and test genes are extracted from the ADBrainNexus network, which is available at https://zenodo.org/record/5594149.
 
 ## 1. Usage
-(1) After this repository is downloaded and unzipped, go into the folder. Then, make sure to unzip the ADBrainNexus.txt.zip folder, which contains feature matrix of unlabeled genes to predict.
+(1) After this repository is downloaded and unzipped, go into the folder. 
 
 (2) We have created a python script, named 'AD_gene_pred.py', which includes all source codes (i) to build the model for predicting AD-associated genes and (ii) to make predictions.
 Assuming that you are currently in the downloaded folder, just run the following command and you will be able to built a model and make predictions:
 
 ```bash
- python AD_gene_pred.py output data/ADBrainNexus.txt 10
  
  python AD_gene_pred.py output data/integrated_feature.txt  10
  
